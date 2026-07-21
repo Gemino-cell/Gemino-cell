@@ -1,55 +1,225 @@
- Hi I am, Xavier Wayne P. Gemino
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xavier Wayne P. Gemino| Portfolio</title>
 
-💻*Aspiring IS Student💻
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
 
----
+body{
+    background-color:#f6f1ff;
+    color:#444;
+}
 
-## About me
+header{
+    background-color:#c8b6ff;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
 
-Hello I'm **Xavier Wayne P. Gemino** a **20-year-old**  2nd year IS Student at Davao del Norte State College.🎓
+.profile{
+    text-align:center;
+    margin-top:30px;
+}
 
-enjoy learning new things and improving my skills. I like exploring new ideas and experiences because they help me grow and make me happy.
+.profile img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid #c8b6ff;
+    object-fit:cover;
+}
 
-I am always willing to learn, face challenges, and gain more knowledge. I am interested in technology and want to continue developing my skills and abilities for the future.
+.profile h2{
+    margin-top:15px;
+    color:#6d4fc2;
+}
 
----
+.profile p{
+    color:#666;
+}
 
-💻 Technical Skills 💻
-✨ Microsoft Office (Word & PowerPoint) 
-✨ Computer Throuble Shooting 
-✨ Editing
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
 
----
+.card{
+    background:white;
+    padding:25px;
+    margin:20px 0;
+    border-radius:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
 
-🚀 Projects 🚀
+.card h2{
+    color:#7a5fd4;
+    margin-bottom:15px;
+}
 
-💻 EduEase: An Interactive Learning Management System for ALS Learners
+.skills ul,
+.features ul{
+    padding-left:20px;
+}
 
-The EduEase Learning Management System is an intelligent and accessible digital learning platform designed to support Alternative Learning System (ALS) learners. 📚 It provides a centralized environment where students can access lessons, complete assessments, review study materials, and monitor their academic progress. The system promotes effective learning through interactive educational tools, accessibility features, and real-time progress tracking.
+.project{
+    background:#f3edff;
+    padding:20px;
+    border-radius:10px;
+    margin-top:15px;
+}
 
-🔹 Features
+.project h3{
+    color:#6d4fc2;
+    margin-bottom:10px;
+}
 
-✅ Interactive lessons and learning modules
+.quote{
+    text-align:center;
+    font-style:italic;
+    color:#7a5fd4;
+    margin:30px 0;
+}
 
-✅ Online quizzes and assessments
+footer{
+    background:#c8b6ff;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
 
-✅ Flashcards and study materials
+</head>
+<body>
 
-✅ Student progress tracking
+<header>
+</header>
 
-✅ Accessibility settings for diverse learners
+<div class="container">
 
-✅ Announcements and notification system
+    <div class="profile">
 
-✅ Teacher, student, and administrator accounts
+        <!-- Replace profile.jpg with your picture -->
+        <img src="68f52fc5-a49a-4fa5-a423-89fd84dd80bb.jpg" alt="Profile">
 
-✅ Learning analytics and performance reports
+        <h2>Xavier Wayne P. Gemino</h2>
+        <p>Aspiring IS Student </p>
 
-✅ Activity logs and monitoring dashboard
+    </div>
 
-✅ Secure storage of educational records
+    <div class="card">
+        <h2>About Me</h2>
 
-🎯 Goal
+        <p>
+            Hello! I'm <strong>Xavier Wayne P. Gemino</strong>, a
+            20-year-old and currently a 2nd Year Student at
+            Davao del Norte State College. 
+        </p>
 
-EduEase aims to enhance the educational experience of ALS learners by providing a modern, accessible, and interactive learning platform that supports academic growth, student engagement, and lifelong learning.
+        <br>
 
+        <p>
+            I am passionate about learning new skills, exploring
+            creative ideas, and improving myself both academically
+            and personally. I enjoy discovering new things that inspire me and make
+            me happy. 
+        </p>
+        
+        <br>
+
+        <p>
+            I believe that every challenge is an opportunity to grow
+            and learn. I am always eager to gain knowledge and improve
+            my abilities in technology. 
+        </p>
+    </div>
+
+    <div class="card skills">
+        <h2>Technical Skills</h2>
+
+        <ul>
+            <li>Microsoft Office (Word & PowerPoint)</li>
+            <li>Basic Programming</li>
+            <li>Basic Editing</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2> Projects</h2>
+
+        <div class="project">
+            <h3>Barangay Complaint System</h3>
+
+            <p>
+                A digital platform that helps residents submit
+                complaints, concerns, and reports within their barangay.
+            </p>
+
+            <br>
+
+            <strong>Features:</strong>
+
+            <ul class="features">
+                <li>Online Complaint Submission</li>
+                <li>Complaint Status Tracking</li>
+                <li>Resident, Moderator, and Admin Accounts</li>
+                <li>Notification and Updates System</li>
+                <li>Report Management</li>
+                <li>Secure Record Keeping</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3> Re-Green Site </h3>
+
+            <p>
+                A platform focused on collecting recyclable materials
+                and promoting environmental sustainability.
+            </p>
+
+            <br>
+
+            <strong>Features:</strong>
+
+            <ul class="features">
+                <li>Collection Tracking</li>
+                <li>Progress Monitoring and Reports</li>
+                <li>User Registration and Management</li>
+                <li>Recycling Activity Updates</li>
+                <li>Waste Collection Scheduling</li>
+                <li>Dashboard for Monitoring Collected Items</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📞 Contact</h2>
+
+        <p>📧 Email: Xavier Wayne P. Gemino@gmail.com</p>
+        <p>📱 Phone: 09063024266</p>
+        <p>📍 Davao del Norte, Philippines</p>
+    </div>
+
+    <div class="quote">
+         "Learning never stops, and every small step leads to bigger achievements." 
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Xavier Wayne P. Gemino| Aspiring IS Student
+</footer>
+
+</body>
+</html>
